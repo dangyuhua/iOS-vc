@@ -114,9 +114,8 @@
     [self dismissViewControllerAnimated:YES completion:block];
 }
 
-- (void)dealloc
-{
-    DLog(@"dealloc");
+- (void)dealloc{
+    DLog(@"%@dealloc",[self class]);
 }
 
 @end
